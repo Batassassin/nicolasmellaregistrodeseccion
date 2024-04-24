@@ -1,0 +1,53 @@
+/*--para el fondo--*/
+main {
+    box-sizing: border-box;
+}
+
+
+body{
+     margin : 0;
+     padding: 0;
+     background: url(/chiloe.jpg);
+     background-size: cover;
+     background-repeat:no-repeat ;
+     
+}
+
+.container {
+    /* border: 3px solid black; */
+    max-width: 90%;
+    margin: auto;
+}
+
+
+
+/*--formulario--*/
+
+.form {
+    border: 3px solid black;
+    border-top: 2px solid;
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.39) 0%,
+        rgba(85, 130, 49, 0.854)0%
+    );
+}
+
+.from-titulo {
+ font-weight: bold;
+ font-size: 30px;
+ text-align: center;
+ margin: 0;
+}
+
+.from-boton input{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 50px;
+    font-size: 25px;
+    display: block;
+
+}
